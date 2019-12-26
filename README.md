@@ -8,3 +8,4 @@
 - Set up Express Server
   - set up route (users, contacts, auth)
 - Set up MongoDB
+- Add models (Contact, User)
