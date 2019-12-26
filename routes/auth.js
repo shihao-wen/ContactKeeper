@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   res.send('Get logged in user.');
 });
 
-// @route       Post api/auth
+// @route       POST api/auth
 // @desc        Auth user & get Token
 // @access      Public
 router.post('/', (req, res) => {
