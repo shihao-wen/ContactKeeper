@@ -384,7 +384,7 @@ table th {
   margin-right: 0.6rem;
 }
 
-/* Animation (CSSTransitionGroup) */
+/* Animation (react-transition-group) */
 .item-enter {
   opacity: 0;
 }
