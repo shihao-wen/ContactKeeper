@@ -17,3 +17,9 @@
   - Get Add Update Delete
 
 [API Documentation](API-Doc.md)
+
+- FrontEnd
+
+```
+"dev": "concurrently \"npm run server\" \"npm run client\""
+```
