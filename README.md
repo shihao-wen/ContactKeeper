@@ -23,9 +23,9 @@
 npm install axios react-router-dom uuid react-transition-group
 ```
 
-- React
+- React Frontend
   - Navbar and Route (Link, Route, Router, Switch)
   - Context & Golobal States
   - Contacts & ContactItem & ContactForm (With update of Context) component
   - Add animation of fading using react-transition-group
-  - Authentication
+  - Authentication (Alert and Auth Context)
