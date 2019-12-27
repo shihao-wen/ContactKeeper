@@ -25,3 +25,4 @@ npm install axios react-router-dom uuid react-transition-group
 
 - React
   - Navbar and Route (Link, Route, Router, Switch)
+  - Context & Golobal States
