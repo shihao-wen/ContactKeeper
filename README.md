@@ -18,8 +18,10 @@
 
 [API Documentation](API-Doc.md)
 
-- React
-
 ```
 "dev": "concurrently \"npm run server\" \"npm run client\""
+npm install axios react-router-dom uuid react-transition-group
 ```
+
+- React
+  - Navbar and Route (Link, Route, Router, Switch)
