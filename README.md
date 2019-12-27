@@ -13,3 +13,5 @@
   - JWT (Json Web Token)
   - Modify auth route
   - MiddleWare to build protected route
+- Contacts
+  - Get Add Update Delete
