@@ -5,11 +5,14 @@ const PORT = process.env.PORT || 5000;
 // Connect Database
 connectDB();
 
+// Init MiddleWare
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => {
   res.json({ msg: 'Welcome to the contact keeper api' });
 });
 
-//Define Routes
+// Define Routes
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/contacts', require('./routes/contacts'));

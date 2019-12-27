@@ -9,3 +9,4 @@
   - set up route (users, contacts, auth)
 - Set up MongoDB
 - Add models (Contact, User)
+- Use express validator for name, password, email..etc
