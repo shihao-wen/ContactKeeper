@@ -65,10 +65,10 @@ router.post(
   }
 );
 
-// @route    PATCH api/contacts/:id
+// @route    PUT api/contacts/:id
 // @desc     Update a contact
 // @access   Private
-router.patch('/:id', auth, async (req, res) => {
+router.put('/:id', auth, async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty())
     return res.status(400).json({ errors: errors.array() });
