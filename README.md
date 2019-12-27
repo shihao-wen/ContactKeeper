@@ -28,3 +28,4 @@ npm install axios react-router-dom uuid react-transition-group
   - Context & Golobal States
   - Contacts & ContactItem & ContactForm (With update of Context) component
   - Add animation of fading using react-transition-group
+  - Authentication
