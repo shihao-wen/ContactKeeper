@@ -18,7 +18,7 @@
 
 [API Documentation](API-Doc.md)
 
-- FrontEnd
+- React
 
 ```
 "dev": "concurrently \"npm run server\" \"npm run client\""
